@@ -1,0 +1,57 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ui-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(219, 217, 217);
+	height: 800px;
+	width: 600px;
+	margin: auto;
+}
+div h1 {
+	color: black;
+	background-color: burlywood;
+	width: 500px;
+	height: 70px;
+	padding-left: 55px;
+	padding-top: 30px;
+	border-radius: 10px;
+}
+#consoleOutput {
+	background-color: rgb(99, 99, 99);
+	width: 400px;
+	height: 100%;
+	border-radius: 8px;
+	padding-left: 9px;
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: 300;
+	cursor: text;
+	overflow-wrap: break-word;
+}
+.console-label h3 {
+	display: inline-block;
+}
+button {
+	background-color: rgb(17, 117, 199);
+	border: none;
+	height: 30px;
+	width: 50px;
+	border-radius: 8px;
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	margin-left: 5px;
+	cursor: pointer;
+	transition: opacity 0.15s;
+}
+button:hover {
+	opacity: 0.8;
+}
+button:active {
+	opacity: 0.6;
+}
